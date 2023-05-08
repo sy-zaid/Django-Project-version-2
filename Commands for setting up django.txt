@@ -1,0 +1,35 @@
+# 1)INSTALLING DJANGO.
+
+pip install django
+
+
+
+# 2)INITIALIZING THE PROJECT.
+
+# Make a new folder for your project
+
+# Open it with pycharm and type : 
+django-admin
+
+# Commands will appear. Now type: 
+django-admin startproject "Folder name"
+
+
+
+# 3) RUNNING THE SERVER.
+
+# To run server, type:
+ cd. 'Directory address where your manage.py is located'
+
+# Then type:
+ python manage.py runserver.
+
+
+# 4) MIGRATING
+# Type in terminal:
+python manage.py migrate
+
+
+5) CREATING SUPER USER/ ADMIN.
+# Type:
+python manage.py createsuperuser
